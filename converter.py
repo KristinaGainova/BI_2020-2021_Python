@@ -5,7 +5,7 @@ def Fah_to_Cel(T):
 def Kel_to_Fah(T):
     return 1.8 * (T - 273) + 32
 def Fah_to_Kel(T):
-    return (32 * T - 32) * (5 / 9) + 273.15
+    return (T + 459.67) * (5 / 9)
 def Cel_to_Kel(T):
     return Fah_to_Kel(Cel_to_Fah(T))
 def Kel_to_Cel(T):
