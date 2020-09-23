@@ -39,11 +39,6 @@ def Ra_to_All(T):
     print("%.4f in Rankine = %.4f in Celius = %.4f in Fahrenheit = %.4f in Kelvins" %
           (T, Ra_to_Cel(T), Ra_to_Fah(T), Ra_to_Kel(T)))
 
-#Fahrenheit:F
-#Rankine:R
-#Celsius:C
-#Kelvin:K
-
 print("Hello! This is awesome temperatre converter! Please tell me, what temperature of what kind you want to convert!")
 print("Supported types: Fahrenheit(F), Rankine(R), Celsius(C), Kelvin(K). Example: 16 C")
 T, type = input().split(' ')
