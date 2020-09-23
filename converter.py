@@ -58,8 +58,3 @@ elif type == "F":
     Fah_to_All(T)
 else:
     print("Sorry, your type %s is not supported, please try again" % type)
-
-# Ra_to_All(1)
-# Cel_to_All(1)
-# Kel_to_All(1)
-# Fah_to_All(1)
