@@ -53,4 +53,4 @@ elif type == "F":
     Fah_to_All(T)
 else:
     print("Sorry, your type %s is not supported, please try again" % type)
-print("Bye!!!")
+print("Bye!!! Have a nice day!")
