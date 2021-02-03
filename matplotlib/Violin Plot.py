@@ -21,6 +21,5 @@ plt.xlabel('Countries')
 plt.ylabel('Population Growth (annual %) from 1961 to 2019 year')
 plt.title(label='Annual population growth rate for year', loc='center',fontsize=25, backgroundcolor='green',
           color='white', fontstyle='italic')
-
+plt.savefig('C:/bioinformatics_institute/python/violinplot.png')
 plt.show()
-p.get_figure().savefig('C:/bioinformatics_institute/python/violinplot.png')
